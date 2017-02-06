@@ -1,0 +1,36 @@
+﻿body {
+	text-align: center;
+}
+label {
+	width: 100px;
+}
+button {
+	font-size: 30px;
+	margin-top: 30px;
+}
+img {
+	margin-bottom: 20px;
+}
+.no-display {
+	display: none;
+}
+#all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%); /* Safari用 */
+  transform: translate(-50%, -50%);
+}
+#try {
+	margin-right: 30px;
+}
+#output {
+	display: none;
+}
+#correct_answer, #user_answer, #result {
+	font-size: 30px;
+}
+#result {
+	margin-top: 30px;
+}

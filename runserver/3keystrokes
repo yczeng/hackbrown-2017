@@ -1,0 +1,13 @@
+ #! /bin/bash
+
+ xdotool windowactivate --sync <window> 4 <keystroke>
+
+import subprocess, os, time
+control_f4_sequence = '''keydown key spacebar
+key spacebar
+                keyup key spacebar'''
+
+def keypress(sequence):
+    p = subprocess.Popen(['xte'], stdin=subprocess.PIPE)
+    p.communicate(input=sequence)
+keypress(control_f4_sequence)

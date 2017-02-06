@@ -1,0 +1,4 @@
+#! /bin/bash
+
+lynx -dump http://www.google.com/#q=hi | awk '/http/{print $2}' > links.txt
+
