@@ -9,7 +9,8 @@ to use vox.io, run iochatcmd.py and go to https://true.localtunnel.me/ to say yo
 Example available commands are: "search google *insert search* and "search youtube *insert search*"
 
 iochatcmd.py uses python modules subprocess, os, time, webbrowser, string, urllib, urllib2, BeautifulSoup, and evdev
-Vox.io also runs on linux machines
+
+Vox.io also runs on linux machines.
 
 
 
